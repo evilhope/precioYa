@@ -2,7 +2,7 @@ import {app, BrowserWindow} from 'electron';
 import {join} from 'path';
 import {URL} from 'url';
 
-
+//commentario
 const isSingleInstance = app.requestSingleInstanceLock();
 
 if (!isSingleInstance) {
